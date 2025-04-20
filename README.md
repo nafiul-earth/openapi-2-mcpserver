@@ -1,1 +1,0 @@
-# openapi-2-mcpserver
