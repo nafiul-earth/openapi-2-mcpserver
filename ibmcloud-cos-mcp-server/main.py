@@ -29,6 +29,9 @@ async def fetch_openapi_spec():
 
 def generate_tools_from_openapi(openapi: Dict[str, Any]):
     paths = openapi.get("paths", {})
+    if  not paths:
+         raise ValueError(f"Path is empty or invalid for {service_name}")
+    
     for path, methods in paths.items():
         for method, details in methods.items():
             operation_id = details.get("operationId") or f"{method}_{path.replace('/', '_')}"
