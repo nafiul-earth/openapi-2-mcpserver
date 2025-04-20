@@ -1,9 +1,0 @@
-[project]
-name = "ibmcloud-cos-mcp-server"
-version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.11"
-dependencies = [
-    "fastapi-mcp>=0.3.0",
-]
