@@ -1,0 +1,26 @@
+[
+  {
+    "name":"watsonx-ai-cp",
+    "url":"https://cloud.ibm.com/apidocs/watsonx-ai-cp/watsonx-ai-cp-2.1.2.json",
+    "version":"2.1.2"
+  },
+  {
+    "name":"watsonx-ai",
+    "url":"https://cloud.ibm.com/apidocs/watsonx-ai.json"
+  },
+  {
+    "name":"machine-learning-cp",
+    "url":"https://cloud.ibm.com/apidocs/machine-learning-cp/machine-learning-cp-5.1.2.json",
+    "version":"5.1.2"
+  },
+  {
+    "name":"ai-openscale",
+    "url":"https://cloud.ibm.com/apidocs/ai-openscale.json"
+  },
+  {
+   "name":"ai-openscale",
+    "url":"https://cloud.ibm.com/apidocs/machine-learning.json"
+  }
+
+]
+  
