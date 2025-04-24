@@ -57,7 +57,7 @@ def generate_tools_from_openapi(openapi: Dict[str, Any], prefix: str):
     base_url = openapi.get("servers", [{}])[0].get("url", "")
     paths = openapi.get("paths", {})
     if  not paths:
-         raise ValueError(f"Path is empty or invalid for {service_name}")
+         raise ValueError(f"Path is empty or invalid for {path}")
     
     for path, methods in paths.items():
         for method, details in methods.items():
